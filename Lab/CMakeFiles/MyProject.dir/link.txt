@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/MyProject.dir/src/Main.cpp.o CMakeFiles/MyProject.dir/src/MapDistance.cpp.o CMakeFiles/MyProject.dir/src/MapPoint.cpp.o  -o MyProject -rdynamic 
