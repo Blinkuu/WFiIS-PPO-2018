@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Complex.h
+ComplexTrue.h
+../include/ComplexTrue.h
+Rational.h
+../include/Rational.h
+
+../include/ComplexTrue.h
+Rational.h
+../include/Rational.h
+
+../include/Rational.h
+iostream
+-
+Complex.h
+../include/Complex.h
+
+/home/stud2017/7gut/Desktop/PREOOP/Lab11/Main.cpp
+iostream
+-
+Complex.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab11/Complex.h
+
+/home/stud2017/7gut/Desktop/PREOOP/Lab11/src/ComplexTrue.cpp
+ComplexTrue.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab11/src/ComplexTrue.h
+iostream
+-
+cmath
+-
+

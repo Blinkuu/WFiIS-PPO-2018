@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Fun.h
+Rational.h
+../include/Rational.h
+
+../include/Rational.h
+iostream
+-
+
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/Main.cpp
+iostream
+-
+cmath
+-
+Rational.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/Rational.h
+Fun.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/Fun.h
+
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/src/Fun.cpp
+Fun.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/src/Fun.h
+vector
+-
+
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/src/Rational.cpp
+Rational.h
+/home/stud2017/7gut/Desktop/PREOOP/Lab10/src/Rational.h
+
